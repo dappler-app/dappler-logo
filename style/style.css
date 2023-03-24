@@ -1,0 +1,34 @@
+@import "./styleAnimatedLogoDappler.css";
+@import "./styleAnimatedLogoDapplerHub.css";
+@import "./styleAnimatedLogoDapplerCore.css";
+@import "./styleAnimatedLogoDapplerConverter.css";
+@import "./styleAnimatedLogoDapplerPortal.css";
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	padding: 0px;
+	margin: 0px;
+	background-color: #d9d9d9;
+}
+
+@media (max-width: 576px) {
+    body {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        /* flex: 50%; */
+        height: auto;
+
+    }
+    .containerAnimatedLogoDappler,
+    .containerAnimatedLogoDapplerHub,
+    .containerAnimatedLogoDapplerCore,
+    .containerAnimatedLogoDapplerConverter,
+    .containerAnimatedLogoDapplerPortal{
+        --baseWidth: 150px;
+    }
+  }

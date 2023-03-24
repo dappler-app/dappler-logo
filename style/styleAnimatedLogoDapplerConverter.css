@@ -1,0 +1,215 @@
+.containerAnimatedLogoDapplerConverter {
+	--darkColor: #1e1f36;
+	--groupColor: #64ba88;
+	--baseWidth: 300px;
+	--delay1: 0.0s;
+	--delay2: 0.5s;
+	--delay3: 1.0s;
+	--delay4: 1.5s;
+	--delay5: 2.0s;
+	--delay6: 2.5s;
+	--delay7: 3.0s;
+	--baseDist: calc(var(--baseWidth) / 30);
+	--horizontalDist: calc(2.2 * var(--baseDist));
+	position: relative;
+	width: var(--baseWidth);
+	height: var(--baseWidth);
+	/* background-color: lightpink; */
+}
+.containerAnimatedLogoDapplerConverter > * > .dotSmall {
+	position: absolute;
+	width: var(--baseDist);
+	height: var(--baseDist);
+	border-radius: 50%;
+	background: var(--darkColor);
+	border-color: var(--darkColor);
+}
+
+.containerAnimatedLogoDapplerConverter > .line1 > .dotSmall {
+	left: calc(15 * var(--baseDist) - 3 * var(--horizontalDist));
+	transform: translateX(-50%);
+	animation-delay: var(--delay1);
+}
+
+.containerAnimatedLogoDapplerConverter > .line1 > .dotSmall:nth-child(1) {
+	top: calc(11.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line1 > .dotSmall:nth-child(2) {
+	top: calc(13.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line1 > .dotSmall:nth-child(3) {
+	top: calc(16.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line1 > .dotSmall:nth-child(4) {
+	top: calc(18.75 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line2 > .dotSmall {
+	left: calc(15 * var(--baseDist) - 2 * var(--horizontalDist));
+	transform: translateX(-50%);
+	animation-delay: var(--delay2);
+}
+
+.containerAnimatedLogoDapplerConverter > .line2 > .dotSmall:nth-child(1) {
+	top: calc(10 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line2 > .dotSmall:nth-child(2) {
+	top: calc(12.5 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line2 > .dotSmall:nth-child(3) {
+	top: calc(15 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line2 > .dotSmall:nth-child(4) {
+	top: calc(17.5 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line2 > .dotSmall:nth-child(5) {
+	top: calc(20 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line3 > .dotSmall {
+	left: calc(15 * var(--baseDist) - var(--horizontalDist));
+	transform: translateX(-50%);
+	animation-delay: var(--delay3);
+}
+
+.containerAnimatedLogoDapplerConverter > .line3 > .dotSmall:nth-child(1) {
+	top: calc(8.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line3 > .dotSmall:nth-child(2) {
+	top: calc(11.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line3 > .dotSmall:nth-child(3) {
+	top: calc(13.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line3 > .dotSmall:nth-child(4) {
+	top: calc(16.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line3 > .dotSmall:nth-child(5) {
+	top: calc(18.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line3 > .dotSmall:nth-child(6) {
+	top: calc(21.25 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line4 > .dotSmall {
+	left: calc(15 * var(--baseDist));
+	transform: translateX(-50%);
+	animation-delay: var(--delay4);
+}
+.containerAnimatedLogoDapplerConverter > .line4 > .dotSmall:nth-child(1) {
+	top: calc(7.5 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line4 > .dotSmall:nth-child(2) {
+	top: calc(10 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line4 > .dotSmall:nth-child(3) {
+	top: calc(12.5 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line4 > .dotSmall:nth-child(4) {
+	top: calc(15 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line4 > .dotSmall:nth-child(5) {
+	top: calc(17.5 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line4 > .dotSmall:nth-child(6) {
+	top: calc(20 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line4 > .dotSmall:nth-child(7) {
+	top: calc(22.5 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line5 > .dotSmall {
+	left: calc(15 * var(--baseDist) + 1 * var(--horizontalDist));
+	transform: translateX(-50%);
+	background-color: var(--groupColor);
+	animation-delay: var(--delay5);
+}
+
+.containerAnimatedLogoDapplerConverter > .line5 > .dotSmall:nth-child(1) {
+	top: calc(8.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line5 > .dotSmall:nth-child(2) {
+	top: calc(11.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line5 > .dotSmall:nth-child(3) {
+	top: calc(13.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line5 > .dotSmall:nth-child(4) {
+	top: calc(16.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line5 > .dotSmall:nth-child(5) {
+	top: calc(18.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerConverter > .line5 > .dotSmall:nth-child(6) {
+	top: calc(21.25 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line6 > .dotSmall {
+	left: calc(15 * var(--baseDist) + 2 * var(--horizontalDist));
+	transform: translateX(-50%);
+	background-color: var(--groupColor);
+	animation-delay: var(--delay6);
+}
+
+.containerAnimatedLogoDapplerConverter > .line6 > .dotSmall:nth-child(1) {
+	top: calc(10 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line6 > .dotSmall:nth-child(2) {
+	top: calc(12.5 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line6 > .dotSmall:nth-child(3) {
+	top: calc(15 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line6 > .dotSmall:nth-child(4) {
+	top: calc(17.5 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line6 > .dotSmall:nth-child(5) {
+	top: calc(20 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line7 > .dotSmall {
+	left: calc(15 * var(--baseDist) + 3 * var(--horizontalDist));
+	transform: translateX(-50%);
+	background-color: var(--groupColor);
+	animation-delay: var(--delay7);
+}
+
+.containerAnimatedLogoDapplerConverter > .line7 > .dotSmall:nth-child(1) {
+	top: calc(11.25 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line7 > .dotSmall:nth-child(2) {
+	top: calc(13.75 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line7 > .dotSmall:nth-child(3) {
+	top: calc(16.25 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > .line7 > .dotSmall:nth-child(4) {
+	top: calc(18.75 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerConverter > * > .dotSmall {
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	animation-name: resizeConverter;
+}
+
+@keyframes resizeConverter {
+	0% {
+		transform: translateX(-50%) scale(1);
+	}
+	10% {
+		transform: translateX(-50%) scale(1.7);
+	}
+	
+	60% {
+		transform: translateX(-50%) scale(1);
+	}
+}

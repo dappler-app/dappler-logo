@@ -1,0 +1,234 @@
+.containerAnimatedLogoDapplerHub {
+	--darkColor: #1e1f36;
+	--groupColor: rgba(243, 237, 139, 0.5);
+	--baseWidth: 300px;
+	--baseDist: calc(var(--baseWidth) / 30);
+	--horizontalDist: calc(2.2 * var(--baseDist));
+	position: relative;
+	width: var(--baseWidth);
+	height: var(--baseWidth);
+	/* background-color: lightpink; */
+}
+.containerAnimatedLogoDapplerHub > * > .dotSmall {
+	position: absolute;
+	width: var(--baseDist);
+	height: var(--baseDist);
+	border-radius: 50%;
+	background: var(--darkColor);
+	border-color: var(--darkColor);
+}
+.containerAnimatedLogoDapplerHub > .line1 > .dotSmall {
+	left: calc(15 * var(--baseDist) - 3 * var(--horizontalDist));
+	transform: translateX(-50%);
+}
+
+.containerAnimatedLogoDapplerHub > .line1 > .dotSmall:nth-child(1) {
+	top: calc(11.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line1 > .dotSmall:nth-child(2) {
+	top: calc(13.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line1 > .dotSmall:nth-child(3) {
+	top: calc(16.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line1 > .dotSmall:nth-child(4) {
+	top: calc(18.75 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line2 > .dotSmall {
+	left: calc(15 * var(--baseDist) - 2 * var(--horizontalDist));
+	transform: translateX(-50%);
+}
+
+.containerAnimatedLogoDapplerHub > .line2 > .dotSmall:nth-child(1) {
+	top: calc(10 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line2 > .dotSmall:nth-child(2) {
+	top: calc(12.5 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.3s;
+}
+.containerAnimatedLogoDapplerHub > .line2 > .dotSmall:nth-child(3) {
+	top: calc(15 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.2s;
+}
+.containerAnimatedLogoDapplerHub > .line2 > .dotSmall:nth-child(4) {
+	top: calc(17.5 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.1s;
+}
+.containerAnimatedLogoDapplerHub > .line2 > .dotSmall:nth-child(5) {
+	top: calc(20 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line3 > .dotSmall {
+	left: calc(15 * var(--baseDist) - var(--horizontalDist));
+	transform: translateX(-50%);
+}
+
+.containerAnimatedLogoDapplerHub > .line3 > .dotSmall:nth-child(1) {
+	top: calc(8.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line3 > .dotSmall:nth-child(2) {
+	top: calc(11.25 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.4s;
+}
+.containerAnimatedLogoDapplerHub > .line3 > .dotSmall:nth-child(3) {
+	top: calc(13.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line3 > .dotSmall:nth-child(4) {
+	top: calc(16.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line3 > .dotSmall:nth-child(5) {
+	top: calc(18.75 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 1.2s;
+}
+.containerAnimatedLogoDapplerHub > .line3 > .dotSmall:nth-child(6) {
+	top: calc(21.25 * var(--baseDist));
+	transform: translateX(-50%);
+}
+
+.containerAnimatedLogoDapplerHub > .line4 > .dotSmall {
+	left: calc(15 * var(--baseDist));
+	transform: translateX(-50%);
+}
+.containerAnimatedLogoDapplerHub > .line4 > .dotSmall:nth-child(1) {
+	top: calc(7.5 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line4 > .dotSmall:nth-child(2) {
+	top: calc(10 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.5s;
+}
+.containerAnimatedLogoDapplerHub > .line4 > .dotSmall:nth-child(3) {
+	top: calc(12.5 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line4 > .dotSmall:nth-child(4) {
+	top: calc(15 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line4 > .dotSmall:nth-child(5) {
+	top: calc(17.5 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line4 > .dotSmall:nth-child(6) {
+	top: calc(20 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 1.1s;
+}
+.containerAnimatedLogoDapplerHub > .line4 > .dotSmall:nth-child(7) {
+	top: calc(22.5 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line5 > .dotSmall {
+	left: calc(15 * var(--baseDist) + 1 * var(--horizontalDist));
+	transform: translateX(-50%);
+}
+
+.containerAnimatedLogoDapplerHub > .line5 > .dotSmall:nth-child(1) {
+	top: calc(8.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line5 > .dotSmall:nth-child(2) {
+	top: calc(11.25 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.6s;
+}
+.containerAnimatedLogoDapplerHub > .line5 > .dotSmall:nth-child(3) {
+	top: calc(13.75 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line5 > .dotSmall:nth-child(4) {
+	top: calc(16.25 * var(--baseDist));
+}
+.containerAnimatedLogoDapplerHub > .line5 > .dotSmall:nth-child(5) {
+	top: calc(18.75 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 1s;
+}
+.containerAnimatedLogoDapplerHub > .line5 > .dotSmall:nth-child(6) {
+	top: calc(21.25 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line6 > .dotSmall {
+	left: calc(15 * var(--baseDist) + 2 * var(--horizontalDist));
+	transform: translateX(-50%);
+}
+
+.containerAnimatedLogoDapplerHub > .line6 > .dotSmall:nth-child(1) {
+	top: calc(10 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line6 > .dotSmall:nth-child(2) {
+	top: calc(12.5 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.7s;
+}
+
+.containerAnimatedLogoDapplerHub > .line6 > .dotSmall:nth-child(3) {
+	top: calc(15 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.8s;
+}
+
+.containerAnimatedLogoDapplerHub > .line6 > .dotSmall:nth-child(4) {
+	top: calc(17.5 * var(--baseDist));
+	background-color: var(--groupColor);
+	animation: 1.3s infinite resizeHub;
+	animation-delay: 0.9s;
+}
+
+.containerAnimatedLogoDapplerHub > .line6 > .dotSmall:nth-child(5) {
+	top: calc(20 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line7 > .dotSmall {
+	left: calc(15 * var(--baseDist) + 3 * var(--horizontalDist));
+	transform: translateX(-50%);
+}
+
+.containerAnimatedLogoDapplerHub > .line7 > .dotSmall:nth-child(1) {
+	top: calc(11.25 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line7 > .dotSmall:nth-child(2) {
+	top: calc(13.75 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line7 > .dotSmall:nth-child(3) {
+	top: calc(16.25 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > .line7 > .dotSmall:nth-child(4) {
+	top: calc(18.75 * var(--baseDist));
+}
+
+.containerAnimatedLogoDapplerHub > * > .dotSmall {
+	animation-iteration-count: infinite;
+}
+
+@keyframes resizeHub {
+	50% {
+		transform: translateX(-50%) scale(1.7);
+		/* background-color: var(--groupColor); */
+		background-color: rgba(234, 234, 96, 1)
+	}
+}
+
+@keyframes moveHub {
+	50% {
+		transform: translateX(-50%) scale(1.7);
+		/* background-color: var(--darkColor) */
+	}
+}
